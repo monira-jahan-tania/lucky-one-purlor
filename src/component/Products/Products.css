@@ -1,0 +1,12 @@
+.products-list{
+    /* height: 408px;
+    width: 300px; */
+    border: 1px solid crimson;
+    border-radius: 8px;
+    background-color: rgb(250, 223, 227);
+}
+.products-list img{
+    width: 200px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
