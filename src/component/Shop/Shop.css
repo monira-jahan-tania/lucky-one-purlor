@@ -10,7 +10,5 @@
     gap: 40px;
 }
 .cart-container{
-    background-color: aquamarine;
-    position: sticky;
-    top: 0;
+    background-color: crimson;
 }
