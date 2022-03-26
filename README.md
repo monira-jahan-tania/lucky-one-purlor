@@ -1,4 +1,4 @@
-# Make Up Store with Create React App
+# Make Up Store
 
 <!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). -->
 https://github.com/Programming-Hero-Web-Course4/lucky-one-monira-jahan-tania

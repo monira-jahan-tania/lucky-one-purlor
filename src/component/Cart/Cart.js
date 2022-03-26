@@ -2,17 +2,17 @@ import React, { useState } from 'react';
 import Random from '../Random/Random';
 import './Cart.css'
 
-const Cart = ({ cart }) => {
-    const [cartOne, setCartOne] = useState('')
+const Cart = ({ cart, chooseAgain, choose1, cartOne }) => {
+    // const [cartOne, setCartOne] = useState('')
 
 
 
-    const choose1 = () => {
-        const randNum = Math.random()
-        const oneItem = Math.floor(randNum * (cart.length - 1))
-        const item = cart[oneItem].name
-        setCartOne(item)
-    }
+    // const choose1 = () => {
+    //     const randNum = Math.random()
+    //     const oneItem = Math.floor(randNum * (cart.length - 1))
+    //     const item = cart[oneItem].name
+    //     setCartOne(item)
+    // }
 
 
 
@@ -24,11 +24,11 @@ const Cart = ({ cart }) => {
                 }
             </div>
 
-            <button className="choose-1-btn" onClick={choose1}>Choose 1 for Me</button><h3>{cartOne}</h3>
+            <button className="choose-1-btn" onClick={() => { choose1() }}>Choose 1 for Me</button><h3>{cartOne}</h3>
 
 
 
-            <button className="choose-again-btn">Choose Again</button>
+            <button className="choose-again-btn" onClick={() => { chooseAgain() }}>Choose Again</button>
 
         </div>
     );

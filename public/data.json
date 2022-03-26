@@ -41,13 +41,13 @@
     {
         "id": "4",
         "category": "Make up",
-        "name": "Pressed Powder",
+        "name": "Brush Set",
         "seller": "Addidas",
         "price": 500,
         "stock": 20,
         "ratings": 4,
         "ratingsCount": 3725,
-        "img": "https://images.pexels.com/photos/1499516/pexels-photo-1499516.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "img": "https://images.pexels.com/photos/1472098/pexels-photo-1472098.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "shipping": 1,
         "quantity": 0
     },
@@ -106,13 +106,13 @@
     {
         "id": "9",
         "category": "Make up",
-        "name": "Lip Liner",
+        "name": "High Rated Perfume",
         "seller": "Addidas",
         "price": 800,
         "stock": 20,
         "ratings": 4,
         "ratingsCount": 3725,
-        "img": "https://images.pexels.com/photos/2517447/pexels-photo-2517447.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+        "img": "https://images.pexels.com/photos/3059609/pexels-photo-3059609.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "shipping": 1,
         "quantity": 0
     },

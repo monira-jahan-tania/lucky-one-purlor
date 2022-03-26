@@ -22,11 +22,22 @@ const Shop = () => {
         setCart(newCart)
 
     }
+    const [cartOne, setCartOne] = useState('')
 
-    // const chooseAgain = (cart) => {
-    //     cart = cart.splice(cart.length - 1, 0)
-    //     setCart(cart)
-    // }
+
+
+    const choose1 = () => {
+        const randNum = Math.random()
+        const oneItem = Math.floor(randNum * (cart.length - 1))
+        const item = cart[oneItem].name
+        setCartOne(item)
+    }
+
+    const chooseAgain = () => {
+
+        setCart([])
+        setCartOne('')
+    }
 
 
     return (
@@ -42,7 +53,8 @@ const Shop = () => {
                     }
                 </div>
                 <div className="cart-container">
-                    <Cart cart={cart}></Cart>
+                    <Cart cart={cart} choose1={choose1} cartOne={cartOne} chooseAgain={chooseAgain}></Cart>
+
                 </div>
             </div>
             <div className='q/a'>
