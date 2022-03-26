@@ -12,3 +12,9 @@
 .cart-container{
     background-color: crimson;
 }
+
+@media (max-width: 688px) {
+    .products-container{
+        grid-template-columns: 1fr;
+    }
+}

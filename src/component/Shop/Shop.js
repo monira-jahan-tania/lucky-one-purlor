@@ -14,15 +14,19 @@ const Shop = () => {
             .then(data => setproducts(data))
     }, [])
 
-    // useEffect(()=>{
 
-    // },[])
 
     const cartHandler = (selectedProduct) => {
         const newCart = [...cart, selectedProduct]
         setCart(newCart)
 
     }
+
+    // const chooseAgain = (cart) => {
+    //     cart = cart.splice(cart.length - 1, 0)
+    //     setCart(cart)
+    // }
+
 
     return (
         <div className='shop-container'>
