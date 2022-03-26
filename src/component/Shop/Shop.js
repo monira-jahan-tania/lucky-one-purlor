@@ -8,24 +8,22 @@ const Shop = () => {
     const [products, setproducts] = useState([])
     const [cart, setCart] = useState([])
 
-
+    //for fetching data or products
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
             .then(data => setproducts(data))
     }, [])
 
-
-
+    //to add products in cart with btn clicking
     const cartHandler = (selectedProduct) => {
         const newCart = [...cart, selectedProduct]
         setCart(newCart)
 
     }
+
+    //to randomly choose one item
     const [cartOne, setCartOne] = useState('')
-
-
-
     const choose1 = () => {
         const randNum = Math.random()
         const oneItem = Math.floor(randNum * (cart.length - 1))
@@ -33,8 +31,8 @@ const Shop = () => {
         setCartOne(item)
     }
 
+    //to choose again and remove all
     const chooseAgain = () => {
-
         setCart([])
         setCartOne('')
     }

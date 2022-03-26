@@ -3,18 +3,6 @@ import Random from '../Random/Random';
 import './Cart.css'
 
 const Cart = ({ cart, chooseAgain, choose1, cartOne }) => {
-    // const [cartOne, setCartOne] = useState('')
-
-
-
-    // const choose1 = () => {
-    //     const randNum = Math.random()
-    //     const oneItem = Math.floor(randNum * (cart.length - 1))
-    //     const item = cart[oneItem].name
-    //     setCartOne(item)
-    // }
-
-
 
     return (
         <div className='carts'>

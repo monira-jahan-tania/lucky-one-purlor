@@ -8,6 +8,8 @@ function App() {
       <nav className='title'>
         <h1>Women's World</h1>
       </nav>
+
+      {/* container for both products and carts */}
       <Shop></Shop>
     </div>
   );
